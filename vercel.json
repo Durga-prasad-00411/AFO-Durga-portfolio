@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "app/api/linkedin/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/linkedin/stream/route.ts": {
+      "maxDuration": 300
+    }
+  },
+  "env": {
+    "LINKEDIN_CLIENT_ID": "@linkedin_client_id",
+    "LINKEDIN_CLIENT_SECRET": "@linkedin_client_secret",
+    "LINKEDIN_ACCESS_TOKEN": "@linkedin_access_token"
+  }
+}
